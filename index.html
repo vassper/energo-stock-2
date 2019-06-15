@@ -140,23 +140,23 @@
                             <div>И мы рассчитаем стоимость вашего</div>
                             <div>счетчика с доставкой</div>
                         </div>
-                        <div class="form_data">
+                        <div class="form_data" id="consultform1343">
                             <form action="/order/" method="post" class="form-order">
 							<input type='hidden' name='csrfmiddlewaretoken' value='3HAX3s3zQYBBdKGp6NblImGlvFgOUoPtQ0cOziN2UuObkiZYD1K6h61IQSpEEDke'>
                                 <input type="hidden" class="geo" name="geo" value="">
 
                                 <div class="form-group" style="margin-bottom: 0">
                                     <label for="name">Имя:
-                                        <input type="text" id="name" class="form-control" name="name">
+                                        <input type="text" id="name111" class="form-control" name="name">
                                     </label>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="phone">Телефон: <i>*</i>
-                                        <input type="text" id="phone" class="form-control" name="phone">
+                                        <input type="text" id="phone111" class="form-control" name="phone">
                                     </label>
                                 </div>
-                                <button type="submit" class="btn btn-lg btn-primary">Получить консультацию</button>
+                                <a href="javascript:_sendConsultForm2()" class="btn btn-lg btn-primary">Получить консультацию</a>
                             </form>
                         </div>
                         <div class="form_bottom">Мы не передаем Вашу персональную информацию третьим лицам</div>
@@ -187,9 +187,7 @@
                 <p>
                     <small>Если есть вопросы, задайте их нам:</small>
                 </p>
-                <button class="btn btn-lg btn-primary btn-order" data-form-type="question">Задать вопрос по работе
-                    счетчика
-                </button>
+               <a href="#contact" class="btn btn-lg btn-primary text-uppercase">Задать вопрос по работе счетчика</a>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 30px 50px 30px 30px;">
                 
@@ -222,37 +220,33 @@
                     <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
                         <div class="product">
                             <div class="pic">
-                                <img alt="Счетчик с пультом - Меркурий 201" src="static/site/es/img/merkurij-201.jpeg">
+                                <img alt="Счетчик с пультом - Меркурий 201.5 (5-60а)" src="static/site/es/img/1f/01.jpg">
                             </div>
-                            <h3>Меркурий 201</h3>
+                            <h3>Меркурий 201.5</h3>
 
                             <p><b>Однотарифный</b></p>
 
-                            <p>Обычная цена: <span class="old-price">7200</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							
-							<p><a href="#openModal">Характеристика</a></p>
+							<p><a href="#openModal">Тех. Характеристики</a></p>
 							<div id="openModal" class="modalDialog">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - Меркурий 201.5 (5-60а)</h2>
 									<p>
 									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
+									<br>Число тарифов: 1
 									<br>Номинальное напряжение: 230 В
 									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									<br>Габаритные размеры: 100х105х65 мм
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                             <div>
-                                <div class="pull-left price">5500 руб.</div>
+                                <div class="pull-left price">6000 руб.</div>
                                 <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Меркурий 201.5 (5-60а)', '6000 руб.')">Заказать</a>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -261,36 +255,33 @@
                     <div class="col-lg-3 col-sm-5 col-xs-12">
                         <div class="product">
                             <div class="pic">
-                                <img alt="Счетчик с пультом - Меркурий 200.02" src="static/site/es/img/merkurij-202.02.jpeg">
+                                <img alt="Счетчик с пультом - Энергомера се101 r5 (5-60а)" src="static/site/es/img/1f/02.jpg">
                             </div>
-                            <h3>Меркурий 200.02</h3>
+                            <h3>Энергомера се101 r5</h3>
 
-                            <p><b>Двухтарифный</b></p>
+                            <p><b>Однотарифный</b></p>
 
-                            <p>Обычная цена: <span class="old-price">10000</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal1">Характеристика</a></p>
+							<p><a href="#openModal1">Тех. Характеристики</a></p>
 							<div id="openModal1" class="modalDialog1">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - Энергомера се101 r5 (5-60а)</h2>
 									<p>
 									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
+									<br>Число тарифов: 1
 									<br>Номинальное напряжение: 230 В
 									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									<br>Габаритные размеры: 10х89х72,5 мм
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                             <div>
-                                <div class="pull-left price">7500 руб.</div>
+                                <div class="pull-left price">6000 руб.</div>
                                 <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Энергомера се101 r5 (5-60а)', '6000 руб.')">Заказать</a>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -299,36 +290,34 @@
                     <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
                         <div class="product">
                             <div class="pic">
-                                <img alt="Счетчик с пультом - Энергомера СЕ 101" src="static/site/es/img/energomera-ce101.jpeg">
+                                <img alt="Счетчик с пультом - Энергомера се102 r5 (5-60а)" src="static/site/es/img/1f/04.jpg">
                             </div>
-                            <h3>Энергомера СЕ 101</h3>
+                            <h3>Энергомера се102 r5</h3>
 
-                            <p><b>Однотарифный</b></p>
+                            <p><b>Многотарифный</b></p>
 
-                            <p>Обычная цена: <span class="old-price">7200</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal2">Характеристика</a></p>
+							<p><a href="#openModal2">Тех. Характеристики</a></p>
 							<div id="openModal2" class="modalDialog2">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - Энергомера се102 r5 (5-60а)</h2>
 									<p>
 									Класс точности: 1
 									<br>Число тарифов: много тарифный
 									<br>ЖК экран
 									<br>Номинальное напряжение: 230 В
 									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									<br>Габаритные размеры: 100х89х72,5 мм
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                             <div>
-                                <div class="pull-left price">5500 руб.</div>
+                                <div class="pull-left price">9000 руб.</div>
                                 <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Энергомера се102 r5 (5-60а)', '9000 руб.')">Заказать</a>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -337,36 +326,217 @@
                     <div class="col-lg-3 col-sm-5 col-xs-12">
                         <div class="product">
                             <div class="pic">
-                                <img alt="Счетчик с пультом - Энергомера СЕ 102" src="static/site/es/img/energomera-ce102.jpeg">
+                                <img alt="Счетчик с пультом - Меркурий 200 (5-60а)" src="static/site/es/img/1f/05.jpg">
                             </div>
-                            <h3>Энергомера СЕ 102</h3>
+                            <h3>Меркурий 200</h3>
 
-                            <p><b>Двухтарифный</b></p>
+                            <p><b>Многотарифный</b></p>
 
-                            <p>Обычная цена: <span class="old-price">10000</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal3">Характеристика</a></p>
+							<p><a href="#openModal3">Тех. Характеристики</a></p>
 							<div id="openModal3" class="modalDialog3">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - Меркурий 200 (5-60а)</h2>
 									<p>
 									Класс точности: 1
 									<br>Число тарифов: много тарифный
-									<br>ЖК экран
+									<br>ЖК-экран
 									<br>Номинальное напряжение: 230 В
 									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									<br>Габаритные размеры: 156х138х58 мм
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                             <div>
-                                <div class="pull-left price">7500 руб.</div>
+                                <div class="pull-left price">10000 руб.</div>
                                 <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Меркурий 200 (5-60а)', '10000 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="row text-center padding20">
+                    <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Энергомера се 101 r5 (5-60а)" src="static/site/es/img/1f/06.jpg">
+                            </div>
+                            <h3>Энергомера се 101 r5</h3>
+
+                            <p><b>Однотарифный</b></p>
+							
+							<p><a href="#openModal4">Тех. Характеристики</a></p>
+							<div id="openModal4" class="modalDialog4">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Энергомера се 101 r5 (5-60а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: 1
+									<br>ЖК-экран
+									<br>Номинальное напряжение: 230 В
+									<br>Базовый максимальный ток: А 5 (60)
+									<br>Габаритные размеры: 100х89х72,5 мм
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">7000 руб.</div>
+                                <div class="pull-right">
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Энергомера се 101 r5 (5-60а)', '7000 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Меркурий 201.2 (5-60а)" src="static/site/es/img/1f/07.jpg">
+                            </div>
+                            <h3>Меркурий 201.2</h3>
+
+                            <p><b>Однотарифный</b></p>
+
+							<p><a href="#openModal5">Тех. Характеристики</a></p>
+							<div id="openModal5" class="modalDialog5">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Меркурий 201.2 (5-60а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: один
+									<br>ЖК-экран
+									<br>Номинальное напряжение: 230 В
+									<br>Базовый максимальный ток: А 5 (60)
+									<br>Габаритные размеры: 105х105х65 мм
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">7000 руб.</div>
+                                <div class="pull-right">
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Меркурий 201.2 (5-60а)', '7000 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Энергомера се 101 s6 (5-60а)" src="static/site/es/img/1f/08.jpg">
+                            </div>
+                            <h3>Энергомера се 101 s6</h3>
+
+                            <p><b>Однотарифный</b></p>
+
+							<p><a href="#openModal6">Тех. Характеристики</a></p>
+							<div id="openModal6" class="modalDialog6">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Энергомера се 101 s6 (5-60а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: 1
+									<br>Номинальное напряжение: 230 В
+									<br>Базовый максимальный: ток А 5 (60)
+									<br>Габаритные размеры: 170х115х53
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">6500 руб.</div>
+                                <div class="pull-right">
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Энергомера се 101 s6 (5-60а)', '6500 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Меркурий 201.4 (10-80а)" src="static/site/es/img/1f/09.jpg">
+                            </div>
+                            <h3>Меркурий 201.4</h3>
+
+                            <p><b>Однотарифный</b></p>
+
+							<p><a href="#openModal7">Тех. Характеристики</a></p>
+							<div id="openModal7" class="modalDialog7">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Меркурий 201.4 (10-80а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: 1
+									<br>Номинальное напряжение: 230 В
+									<br>Базовый максимальный ток: А 10 (80)
+									<br>Габаритные размеры: 105х105х65 мм
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">7000 руб.</div>
+                                <div class="pull-right">
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Меркурий 201.4 (10-80а)', '7000 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="row text-center padding20">
+                    <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Нева 103 1so (5-60а)" src="static/site/es/img/1f/010.jpg">
+                            </div>
+                            <h3>Нева 103 1so</h3>
+
+                            <p><b>Однотарифный</b></p>
+
+							<p><a href="#openModal8">Тех. Характеристики</a></p>
+							<div id="openModal8" class="modalDialog8">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Нева 103 1so (5-60а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: 1
+									<br>Номинальное напряжение: 230 В
+									<br>Базовый максимальный ток: А 5 (80)
+									<br>Габаритные размеры: 10х89х72,5
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">7000 руб.</div>
+                                <div class="pull-right">
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Нева 103 1so (5-60а)', '7000 руб.')">Заказать</a>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -379,36 +549,34 @@
                     <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
                         <div class="product">
                             <div class="pic">
-                                <img alt="Счетчик с пультом - Меркурий 230 AM" src="static/site/es/img/merkurij-230-am.jpeg">
+                                <img alt="Счетчик с пультом - Энергомера се301 или се303 (5-100а)" src="static/site/es/img/3f/011.jpg">
                             </div>
-                            <h3>Меркурий 230 AM</h3>
+                            <h3>Энергомера се301 или се303</h3>
 
-                            <p><b>Однотарифный</b></p>
+                            <p><b>Многотарифный</b></p>
 
-                            <p>Обычная цена: <span class="old-price">10000</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal4">Характеристика</a></p>
-							<div id="openModal4" class="modalDialog4">
+							<p><a href="#openModal9">Тех. Характеристики</a></p>
+							<div id="openModal9" class="modalDialog9">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Энергомера се301 или се303 (5-100а)</h2>
 									<p>
 									Класс точности: 1
 									<br>Число тарифов: много тарифный
 									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									<br>Номинальное фазное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (100)
+									<br>Габаритные размеры: 110х143х72
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                             <div>
-                                <div class="pull-left price">7900 руб.</div>
+                                <div class="pull-left price">14000 руб.</div>
                                 <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Энергомера се301 или се303 (5-100а)', '14000 руб.')">Заказать</a>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -417,36 +585,33 @@
                     <div class="col-lg-3 col-sm-5 col-xs-12">
                         <div class="product">
                             <div class="pic">
-                                <img alt="Счетчик с пультом - Меркурий 230 ART-01" src="static/site/es/img/merkurii-230-art-01cn.jpeg">
+                                <img alt="Счетчик с пультом - Энергомера 6803В r32 (5-60 или 10-100а)" src="static/site/es/img/3f/012.jpg">
                             </div>
-                            <h3>Меркурий 230 ART-01</h3>
+                            <h3>Энергомера 6803В r32</h3>
 
-                            <p><b>Двухтарифный</b></p>
+                            <p><b>Однотарифный</b></p>
 
-                            <p>Обычная цена: <span class="old-price">16680</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal5">Характеристика</a></p>
-							<div id="openModal5" class="modalDialog5">
+							<p><a href="#openModal10">Тех. Характеристики</a></p>
+							<div id="openModal10" class="modalDialog10">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - Энергомера 6803В r32 (5-60 или 10-100а)</h2>
 									<p>
 									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									<br>Число тарифов: 1
+									<br>Номинальное фазное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (60) или 10(100)
+									<br>Габаритные размеры: 143x170x52
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                             <div>
-                                <div class="pull-left price">13900 руб.</div>
+                                <div class="pull-left price">8000 руб.</div>
                                 <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Энергомера 6803В r32 (5-60 или 10-100а)', '8000 руб.')">Заказать</a>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -455,273 +620,332 @@
                     <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
                         <div class="product">
                             <div class="pic">
-                                <img alt="Счетчик с пультом - Энергомера ЦЭ 6803" src="static/site/es/img/energomera-ce-5803.jpeg">
+                                <img alt="Счетчик с пультом - Энергомера 6803В r31 (5-60 или 10-100а)" src="static/site/es/img/3f/013.jpg">
                             </div>
-                            <h3>Энергомера ЦЭ 6803</h3>
+                            <h3>Энергомера 6803В r31</h3>
 
                             <p><b>Однотарифный</b></p>
 
-                            <p>Обычная цена: <span class="old-price">9480</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal6">Характеристика</a></p>
-							<div id="openModal6" class="modalDialog6">
-								<div>
-									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
-									<p>
-									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
-									</p>
-								</div>
-							</div>
-                            <br>
-
-                            <div>
-                                <div class="pull-left price">7900 руб.</div>
-                                <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-5 col-xs-12">
-                        <div class="product">
-                            <div class="pic">
-                                <img alt="Счетчик с пультом - Энергомера СЕ 301" src="static/site/es/img/energomera-ce301.jpeg">
-                            </div>
-                            <h3>Энергомера СЕ 301</h3>
-
-                            <p><b>Двухтарифный</b></p>
-
-                            <p>Обычная цена: <span class="old-price">14280</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal7">Характеристика</a></p>
-							<div id="openModal7" class="modalDialog7">
-								<div>
-									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
-									<p>
-									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
-									</p>
-								</div>
-							</div>
-                            <br>
-
-                            <div>
-                                <div class="pull-left price">11900 руб.</div>
-                                <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-5 col-xs-12">
-                        <div class="product">
-                            <div class="pic">
-                                <img alt="Счетчик с пультом - Меркурий 231 Ат 01i" src="static/site/es/img/merk-231-at-01.jpeg">
-                            </div>
-                            <h3>Меркурий 231 Ат 01i</h3>
-                            <p><b>Двухтарифный</b></p>
-                            <p>Обычная цена: <span class="old-price">14280</span> руб.</p>
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal8">Характеристика</a></p>
-							<div id="openModal8" class="modalDialog8">
-								<div>
-									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
-									<p>
-									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
-									</p>
-								</div>
-							</div>
-                            <br>
-                            <div>
-                                <div class="pull-left price">от 11900 руб.</div>
-                                <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-5 col-xs-12">
-                        <div class="product">
-                            <div class="pic">
-                                <img alt="Счетчик с пультом - Нева 303 1so" src="static/site/es/img/neva-303-1so.jpeg">
-                            </div>
-                            <h3>Нева 303 1so</h3>
-
-                            <p><b>Однотарифный</b></p>
-
-                            <p>Обычная цена: <span class="old-price">11880</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal9">Характеристика</a></p>
-							<div id="openModal9" class="modalDialog9">
-								<div>
-									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
-									<p>
-									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
-									</p>
-								</div>
-							</div>
-                            <br>
-
-                            <div>
-                                <div class="pull-left price">от 9900 руб.</div>
-                                <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-5 col-xs-12">
-                        <div class="product">
-                            <div class="pic">
-                                <img alt="Счетчик с пультом - Миртек 32" src="static/site/es/img/mirtek.jpeg">
-                            </div>
-                            <h3>Миртек 32</h3>
-
-                            <p><b>Двухтарифный</b></p>
-
-                            <p>Обычная цена: <span class="old-price">16920</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal10">Характеристика</a></p>
-							<div id="openModal10" class="modalDialog10">
-								<div>
-									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
-									<p>
-									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
-									</p>
-								</div>
-							</div>
-                            <br>
-
-                            <div>
-                                <div class="pull-left price">от 14100 руб.</div>
-                                <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-5 col-xs-12">
-                        <div class="product">
-                            <div class="pic">
-                                <img alt="Счетчик с пультом - Матрица NP73e" src="static/site/es/img/matrica-np.jpeg">
-                            </div>
-                            <h3>Матрица NP73e</h3>
-
-                            <p><b>Двухтарифный</b></p>
-
-                            <p>Обычная цена: <span class="old-price">16920</span> руб.</p>
-
-                            <p>Цена со скидкой 20%:</p>
-							<p><a href="#openModal11">Характеристика</a></p>
+							<p><a href="#openModal11">Тех. Характеристики</a></p>
 							<div id="openModal11" class="modalDialog11">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - Энергомера 6803В r31 (5-60 или 10-100а)</h2>
 									<p>
 									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									<br>Число тарифов: 1
+									<br>Номинальное фазное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (60) или 10(100)
+									<br>Габаритные размеры: 110х143х72
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                             <div>
-                                <div class="pull-left price">от 14100 руб.</div>
+                                <div class="pull-left price">8000 руб.</div>
                                 <div class="pull-right">
-                                    <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                                   <a href="#openModal0001" class="btn btn-success" onclick="_order('Энергомера 6803В r31 (5-60 или 10-100а)', '8000 руб.')">Заказать</a>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Меркурий 230 АМ01 (5-60а) din рейка" src="static/site/es/img/3f/014.jpg">
+                            </div>
+                            <h3>Меркурий 230 АМ01</h3>
+
+                            <p><b>Однотарифный</b></p>
+
+							<p><a href="#openModal12">Тех. Характеристики</a></p>
+							<div id="openModal12" class="modalDialog12">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Меркурий 230 АМ01 (5-60а) din рейка</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: 1
+									<br>Номинальное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (50)
+									<br>Габаритные размеры: 65х157х7142
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">8500 руб.</div>
+                                <div class="pull-right">
+                                   <a href="#openModal0001" class="btn btn-success" onclick="_order('Меркурий 230 АМ01 (5-60а) din рейка', '8500 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Меркурий 230 АМ01 или АМ02 (5-60 или 10-100а)" src="static/site/es/img/3f/015.jpg">
+                            </div>
+                            <h3>Меркурий 230 АМ01 или АМ02</h3>
+                            <p><b>Однотарифный</b></p>
+							<p><a href="#openModal13">Тех. Характеристики</a></p>
+							<div id="openModal13" class="modalDialog13">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Меркурий 230 АМ01 или АМ02 (5-60 или 10-100а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: один
+									<br>Номинальное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (60) или 10 (100)
+									<br>Габаритные размеры: 258х170х74
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+                            <div>
+                                <div class="pull-left price">8500 руб.</div>
+                                <div class="pull-right">
+                                   <a href="#openModal0001" class="btn btn-success" onclick="_order('Меркурий 230 АМ01 или АМ02 (5-60 или 10-100а)', '8500 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Меркурий 231 АТ01 (5-60а)" src="static/site/es/img/3f/016.jpg">
+                            </div>
+                            <h3>Меркурий 231 АТ01</h3>
+
+                            <p><b>Многотарифный</b></p>
+
+							<p><a href="#openModal14">Тех. Характеристики</a></p>
+							<div id="openModal14" class="modalDialog14">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Меркурий 231 АТ01 (5-60а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: много тарифный
+									<br>Номинальное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (50)
+									<br>Габаритные размеры: 65х157х7142
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">13500 руб.</div>
+                                <div class="pull-right">
+                                   <a href="#openModal0001" class="btn btn-success" onclick="_order('Меркурий 231 АТ01 (5-60а)', '13500 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Нева 303 (5-60а)" src="static/site/es/img/3f/017.jpg">
+                            </div>
+                            <h3>Нева 303</h3>
+
+                            <p><b>Однотарифный</b></p>
+
+							<p><a href="#openModal15">Тех. Характеристики</a></p>
+							<div id="openModal15" class="modalDialog15">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Нева 303 (5-60а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: 1
+									<br>Номинальное фазное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (60)
+									<br>Габаритные размеры: 115х122х65
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">10000 руб.</div>
+                                <div class="pull-right">
+                                   <a href="#openModal0001" class="btn btn-success" onclick="_order('Нева 303 (5-60а)', '10000 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Меркурий 230 АМ03 (5-7.5а) Под трансформаторы тока" src="static/site/es/img/3f/018.jpg">
+                            </div>
+                            <h3>Меркурий 230 АМ03</h3>
+
+                            <p><b>Однотарифный</b></p>
+
+							<p><a href="#openModal16">Тех. Характеристики</a></p>
+							<div id="openModal16" class="modalDialog16">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Меркурий 230 АМ03 (5-7.5а) Под трансформаторы тока</h2>
+									<p>
+									Подключение через Трансформаторы Тока!!!
+									<br>Класс точности: 0.5
+									<br>Число тарифов: один
+									<br>Номинальное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (7,5)
+									<br>Габаритные размеры: 258х170х74
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">10000 руб.</div>
+                                <div class="pull-right">
+                                   <a href="#openModal0001" class="btn btn-success" onclick="_order('Меркурий 230 АМ03 (5-7.5а) Под трансформаторы тока', '10000 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+					
+                <div class="row text-center padding20">
+                    <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Нева 306 1so (5-100а)" src="static/site/es/img/3f/019.jpg">
+                            </div>
+                            <h3>Нева 306 1so</h3>
+
+                            <p><b>Многотарифный</b></p>
+
+							<p><a href="#openModal17">Тех. Характеристики</a></p>
+							<div id="openModal17" class="modalDialog17">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Нева 306 1so (5-100а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: много тарифный
+									<br>ЖК экран
+									<br>Номинальное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (100)
+									<br>Габаритные размеры: 65х115х122
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">16000 руб.</div>
+                                <div class="pull-right">
+                                    <a href="#openModal0001" class="btn btn-success" onclick="_order('Нева 306 1so (5-100а)', '16000 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5 col-xs-12">
+                        <div class="product">
+                            <div class="pic">
+                                <img alt="Счетчик с пультом - Меркурий 230 ART 01 или 02 (5-60а или 10-100а)" src="static/site/es/img/3f/020.jpg">
+                            </div>
+                            <h3>Меркурий 230 ART 01 или 02</h3>
+
+                            <p><b>Многотарифный</b></p>
+
+							<p><a href="#openModal18">Тех. Характеристики</a></p>
+							<div id="openModal18" class="modalDialog18">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - Меркурий 230 ART 01 или 02 (5-60а или 10-100а)</h2>
+									<p>
+									Класс точности: 1
+									<br>Число тарифов: много тарифный
+									<br>Номинальное напряжение: 3*230/400 В
+									<br>Базовый максимальный ток: А 5 (50) или 10 (100)
+									<br>Габаритные размеры: 258х170х74
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                            <div>
+                                <div class="pull-left price">20000 руб.</div>
+                                <div class="pull-right">
+                                   <a href="#openModal0001" class="btn btn-success" onclick="_order('Меркурий 230 ART 01 или 02 (5-60а или 10-100а)', '20000 руб.')">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+	
                 </div>
             </div>
         </div>
 
         <div class="know-more" style="margin-bottom: 40px">
             <h3 class="title2 text-center text-yellow text-underline">Не нашли свой счетчик?</h3>
-            <button title="Узнать о всех можедях счетчиков" class="btn btn-lg btn-primary btn-order" data-form-type="models">Узнайте о всех доступных моделях
-            </button>
+            <a href="#contact" class="btn btn-lg btn-primary text-uppercase">Узнайте о всех доступных моделях</a>
         </div>
 
-        <h2 class="title text-center">Газовые счетчики с пультом</h2>
+        <h2 class="title text-center">Газовые счетчики + магнит</h2>
 
         <div class="row text-center padding20">
             <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
                 <div class="product">
                     <div class="pic">
-                        <img alt="Счетчик с пультом - Бк-4" src="static/site/es/img/gaz-bk-4.jpeg">
+                        <img alt="Газовые счетчики + магнит - BK-G4 (левый или правый вход)" src="static/site/es/img/g/021.jpg">
                     </div>
-                    <h3>Бк-4</h3>
+                    <h3>BK-G4</h3>
 
                     <p><b>Газовый</b></p>
 
                     <p>Обычная цена: <span class="old-price">10800</span> руб.</p>
 
                     <p>Цена со скидкой:</p>
-							<p><a href="#openModal12">Характеристика</a></p>
-							<div id="openModal12" class="modalDialog12">
+							<p><a href="#openModal19">Тех. Характеристики</a></p>
+							<div id="openModal19" class="modalDialog19">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - BK-G4 (левый или правый вход)</h2>
 									<p>
-									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									ДЛЯ УСТАНОВКИ В ПОМЕЩЕНИИ
+									<br>Характеристики:
+									<br>Страна производитель - Россия
+									<br>Область применения счетчика - Бытовой
+									<br>Вид газа - Природный
+									<br>Вид счетчика - Мембранный
+									<br>Меж поверочный интервал 10 лет
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                     <div>
-                        <div class="pull-left price">от 9000 руб.</div>
+                        <div class="pull-left price">12000 руб.</div>
                         <div class="pull-right">
-                            <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                            <a href="#openModal0001" class="btn btn-success" onclick="_order('BK-G4 (левый или правый вход)', '12000 руб.')">Заказать</a>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -730,36 +954,38 @@
             <div class="col-lg-3 col-sm-5 col-xs-12">
                 <div class="product">
                     <div class="pic">
-                        <img alt="Счетчик с пультом - Бк-6" src="static/site/es/img/gaz-bk6.jpeg">
+                        <img alt="Газовые счетчики + магнит - BK-G4T (левый или правый вход)" src="static/site/es/img/g/022.jpg">
                     </div>
-                    <h3>Бк-6</h3>
+                    <h3>BK-G4T</h3>
 
                     <p><b>Газовый</b></p>
 
                     <p>Обычная цена: <span class="old-price">13200</span> руб.</p>
 
                     <p>Цена со скидкой:</p>
-							<p><a href="#openModal13">Характеристика</a></p>
-							<div id="openModal13" class="modalDialog13">
+							<p><a href="#openModal20">Тех. Характеристики</a></p>
+							<div id="openModal20" class="modalDialog20">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - BK-G4T (левый или правый вход)</h2>
 									<p>
-									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									ДЛЯ УСТАНОВКИ НА УЛИЦЕ
+									<br>Характеристики:
+									<br>Страна производитель - Россия
+									<br>Область применения счетчика - Бытовой
+									<br>Вид газа - Природный
+									<br>Вид счетчика - Мембранный
+									<br>Меж поверочный интервал 10 лет
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                     <div>
-                        <div class="pull-left price">от 11000 руб.</div>
+                        <div class="pull-left price">13000 руб.</div>
                         <div class="pull-right">
-                            <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                           <a href="#openModal0001" class="btn btn-success" onclick="_order('BK-G4T (левый или правый вход)', '13000 руб.')">Заказать</a>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -768,36 +994,38 @@
             <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
                 <div class="product">
                     <div class="pic">
-                        <img alt="Счетчик с пультом - СГМН - 1" src="static/site/es/img/gaz-sgmn.jpeg">
+                        <img alt="Газовые счетчики + магнит - BK-G6 (левый или правый вход)" src="static/site/es/img/g/023.jpg">
                     </div>
-                    <h3>СГМН - 1</h3>
+                    <h3>BK-G6</h3>
 
                     <p><b>Газовый</b></p>
 
                     <p>Обычная цена: <span class="old-price">12000</span> руб.</p>
 
                     <p>Цена со скидкой:</p>
-							<p><a href="#openModal14">Характеристика</a></p>
-							<div id="openModal14" class="modalDialog14">
+							<p><a href="#openModal21">Тех. Характеристики</a></p>
+							<div id="openModal21" class="modalDialog21">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - BK-G6 (левый или правый вход)</h2>
 									<p>
-									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									<br>ДЛЯ УСТАНОВКИ В ПОМЕЩЕНИИ
+									<br>Характеристики:
+									<br>Страна производитель - Россия
+									<br>Область применения счетчика - Бытовой
+									<br>Вид газа - Природный
+									<br>Вид счетчика - Мембранный
+									<br>Меж поверочный интервал 10 лет
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                     <div>
-                        <div class="pull-left price">от 10000 руб.</div>
+                        <div class="pull-left price">15000 руб.</div>
                         <div class="pull-right">
-                            <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                           <a href="#openModal0001" class="btn btn-success" onclick="_order('BK-G6 (левый или правый вход)', '15000 руб.')">Заказать</a>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -806,36 +1034,38 @@
             <div class="col-lg-3 col-sm-5 col-xs-12">
                 <div class="product">
                     <div class="pic">
-                        <img alt="Счетчик с пультом - Газ Омега" src="static/site/es/img/gaz-omega.jpeg">
+                        <img alt="Газовые счетчики + магнит - BK-G6T (левый или правый вход)" src="static/site/es/img/g/024.jpg">
                     </div>
-                    <h3>Газ Омега</h3>
+                    <h3>BK-G6T</h3>
 
                     <p><b>Газовый</b></p>
 
                     <p>Обычная цена: <span class="old-price">21600</span> руб.</p>
 
                     <p>Цена со скидкой:</p>
-							<p><a href="#openModal15">Характеристика</a></p>
-							<div id="openModal15" class="modalDialog15">
+							<p><a href="#openModal22">Тех. Характеристики</a></p>
+							<div id="openModal22" class="modalDialog22">
 								<div>
 									<a href="#closem" title="Закрыть" class="closem">X</a>
-									<h2>Характеристика - Меркурий 201</h2>
+									<h2>Характеристика - BK-G6T (левый или правый вход)</h2>
 									<p>
-									Класс точности: 1
-									<br>Число тарифов: много тарифный
-									<br>ЖК экран
-									<br>Номинальное напряжение: 230 В
-									<br>Базовый максимальный ток: А 5 (60)
-									<br>Габаритные размеры: 100х89х72,5 мм&nbsp;<br>
+									<br>ДЛЯ УСТАНОВКИ НА УЛИЦЕ
+									<br>Характеристики:
+									<br>Страна производитель - Россия
+									<br>Область применения счетчика - Бытовой
+									<br>Вид газа - Природный
+									<br>Вид счетчика - Мембранный
+									<br>Меж поверочный интервал 10 лет
+									<br>
 									</p>
 								</div>
 							</div>
                             <br>
 
                     <div>
-                        <div class="pull-left price">от 18000 руб.</div>
+                        <div class="pull-left price">17000 руб.</div>
                         <div class="pull-right">
-                            <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                            <a href="#openModal0001" class="btn btn-success" onclick="_order('BK-G6T (левый или правый вход)', '17000 руб.')">Заказать</a>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -843,6 +1073,171 @@
             </div>
         </div>
 
+        <div class="row text-center padding20">
+            <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
+                <div class="product">
+                    <div class="pic">
+                        <img alt="Газовые счетчики + магнит - СГК-G4" src="static/site/es/img/g/025.jpg">
+                    </div>
+                    <h3>СГК-G4</h3>
+
+                    <p><b>Газовый</b></p>
+
+                    <p>Обычная цена: <span class="old-price">10800</span> руб.</p>
+
+                    <p>Цена со скидкой:</p>
+							<p><a href="#openModal23">Тех. Характеристики</a></p>
+							<div id="openModal23" class="modalDialog23">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - СГК-G4</h2>
+									<p>
+									<br>ДЛЯ УСТАНОВКИ В ПОМЕЩЕНИИ
+									<br>Характеристики:
+									<br>Страна производитель - Россия
+									<br>Область применения счетчика - Бытовой
+									<br>Вид газа - Природный
+									<br>Вид счетчика - Мембранный
+									<br>Меж поверочный интервал 10 лет
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                    <div>
+                        <div class="pull-left price">9000 руб.</div>
+                        <div class="pull-right">
+                            <a href="#openModal0001" class="btn btn-success" onclick="_order('СГК-G4', '9000 руб.')">Заказать</a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+		
+        <h2 class="title text-center">Cчетчики воды + магнит</h2>
+
+        <div class="row text-center padding20">
+            <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
+                <div class="product">
+                    <div class="pic">
+                        <img alt="Cчетчики воды + магнит - БЕТАР СХВ-15" src="static/site/es/img/w/026.jpg">
+                    </div>
+                    <h3>БЕТАР СХВ-15</h3>
+
+                    <p><b>Холодная вода</b></p>
+
+                    <p>Обычная цена: <span class="old-price">10800</span> руб.</p>
+
+                    <p>Цена со скидкой:</p>
+							<p><a href="#openModal24">Тех. Характеристики</a></p>
+							<div id="openModal24" class="modalDialog24">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - БЕТАР СХВ-15</h2>
+									<p>
+									<br>Счетчик ХОЛОДНОЙ воды с магнитом в комплекте.
+									<br>Диаметр условного прохода Ду [мм] 15
+									<br>Номинальный расход воды [м3/ч] 1,5
+									<br>Порог чувствительности, не более [м3/ч] 0,015
+									<br>Длина счетчика со штуцерами, L1 [мм] 172
+									<br>Межповерочный интервал - 6 лет
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                    <div>
+                        <div class="pull-left price">3000 руб.</div>
+                        <div class="pull-right">
+                            <a href="#openModal0001" class="btn btn-success" onclick="_order('БЕТАР СХВ-15', '3000 руб.')">Заказать</a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-5 col-xs-12">
+                <div class="product">
+                    <div class="pic">
+                        <img alt="Cчетчики воды + магнит - БЕТАР СГВ-15" src="static/site/es/img/w/027.jpg">
+                    </div>
+                    <h3>БЕТАР СГВ-15</h3>
+
+                    <p><b>Горячая вода</b></p>
+
+                    <p>Обычная цена: <span class="old-price">13200</span> руб.</p>
+
+                    <p>Цена со скидкой:</p>
+							<p><a href="#openModal25">Тех. Характеристики</a></p>
+							<div id="openModal25" class="modalDialog25">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - БЕТАР СГВ-15</h2>
+									<p>
+									<br>Счетчик ГОРЯЧЕЙ воды с магнитом в комплекте.
+									<br>Диаметр условного прохода Ду [мм] 15
+									<br>Номинальный расход воды [м3/ч] 1,5
+									<br>Порог чувствительности, не более [м3/ч] 0,015
+									<br>Длина счетчика со штуцерами, L1 [мм] 172
+									<br>Межповерочный интервал - 6 лет
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                    <div>
+                        <div class="pull-left price">3000 руб.</div>
+                        <div class="pull-right">
+                            <a href="#openModal0001" class="btn btn-success" onclick="_order('БЕТАР СГВ-15', '3000 руб.')">Заказать</a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-lg-offset-0 col-lg-3 col-sm-offset-1 col-sm-5 col-xs-12">
+                <div class="product">
+                    <div class="pic">
+                        <img alt="Cчетчики воды + магнит - GERRIDA СВХ-15" src="static/site/es/img/w/028.jpg">
+                    </div>
+                    <h3>GERRIDA СВХ-15</h3>
+
+                    <p><b>УНИВЕРСАЛЬНЫЙ</b></p>
+
+                    <p>Обычная цена: <span class="old-price">12000</span> руб.</p>
+
+                    <p>Цена со скидкой:</p>
+							<p><a href="#openModal26">Тех. Характеристики</a></p>
+							<div id="openModal26" class="modalDialog26">
+								<div>
+									<a href="#closem" title="Закрыть" class="closem">X</a>
+									<h2>Характеристика - GERRIDA СВХ-15</h2>
+									<p>
+									<br>Счетчик воды УНИВЕРСАЛЬНЫЙ с магнитом в комплекте
+									<br>Диаметр условного прохода Ду [мм] 15
+									<br>Номинальный расход воды [м3/ч] 1,5
+									<br>Порог чувствительности, не более [м3/ч] 0,015
+									<br>Длина счетчика со штуцерами, L1 [мм] 172
+									<br>Межповерочный интервал - 6 лет
+									<br>
+									</p>
+								</div>
+							</div>
+                            <br>
+
+                    <div>
+                        <div class="pull-left price">3500 руб.</div>
+                        <div class="pull-right">
+                            <a href="#openModal0001" class="btn btn-success" onclick="_order('GERRIDA СВХ-15', '3500 руб.')">Заказать</a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+		
         <h2 class="title text-center">Cопутствующие товары</h2>
 
         <div class="row text-center padding20">
@@ -861,7 +1256,7 @@
                     <div>
                         <div class="pull-left price">от 5000 руб.</div>
                         <div class="pull-right">
-                            <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                            <a href="#openModal0001" class="btn btn-success" onclick="_order('Антимагнитная пломба', '5000 руб.')">Заказать</a>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -882,7 +1277,7 @@
                     <div>
                         <div class="pull-left price">от 3500 руб.</div>
                         <div class="pull-right">
-                            <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                           <a href="#openModal0001" class="btn btn-success" onclick="_order('Автоматы', 'от 3500 руб.')">Заказать</a>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -903,7 +1298,7 @@
                     <div>
                         <div class="pull-left price">от 1000 руб.</div>
                         <div class="pull-right">
-                            <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                            <a href="#openModal0001" class="btn btn-success" onclick="_order('Дополнительный пульт', 'от 10000 руб.')">Заказать</a>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -925,7 +1320,7 @@
                     <div>
                         <div class="pull-left price">от 4000 руб.</div>
                         <div class="pull-right">
-                            <button class="btn btn-success btn-order" data-form-type="order">Заказать</button>
+                           <a href="#openModal0001" class="btn btn-success" onclick="_order('Магнит для воды', 'от 4000 руб.')">Заказать</a>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -977,7 +1372,7 @@
                 </div>
             </div>
         </div>
-        <button class="btn btn-lg btn-primary text-uppercase btn-order" data-form-type="order2">Оставить заявку</button>
+        <a href="#contact" class="btn btn-lg btn-primary text-uppercase">Оставить заявку</a>
     </div>
 </section>
 
@@ -1005,12 +1400,12 @@
                     <input type="hidden" class="geo" name="geo" value="">
 
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Введите имя">
+                        <input type="text" name="name" id="order_name1" class="form-control" placeholder="Введите имя">
                     </div>
                     <div class="form-group">
-                        <input type="email" name="phone" class="form-control" placeholder="Введите телефон*">
+                        <input type="email" name="phone" id="order_phone1" class="form-control" placeholder="Введите телефон*">
                     </div>
-                    <button type="submit" class="btn btn-warning btn-lg">Получить консультацию</button>
+                    <a href="javascript:_sendConsultForm()" class="btn btn-warning btn-lg">Получить консультацию</a>
                 </form>
             </div>
         </div>
@@ -1171,9 +1566,7 @@
 		
 		
         <div class="text-center">
-            <button title="задать вопрос по работе" class="btn btn-lg btn-warning text-uppercase btn-order" data-form-type="question2">Задать свой
-                вопрос
-            </button>
+            <a href="#contact" class="btn btn-lg btn-warning text-uppercase">Задать свой вопрос</a>
         </div>
 
     </div>
@@ -1277,7 +1670,7 @@
         </div>
     </div>
 </section>
-
+<a name="contact"></a>
 <section class="contacts2 cid-rtrD1GKVIy" id="contacts2-1">
 
     <div class="container">
@@ -1356,74 +1749,93 @@
 </footer>
 
 
-<div class="modal fade" id="modal-order">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="modal-form-title">Узнать о полном перечне счетчиков</h4>
+<script>
+function _order(name, price){
+	
+	if(name != '' && price != ''){
+		$('#openModal0001 .order_panel').html(name+", "+price);
+	}
+	else {
+		$('#openModal0001').css('display', 'none');
+	}
+}
 
-                <p class="small-gray" id="modal-from-text" style="margin-top: 8px;">Введите Ваше имя и телефон.
-                    Специалист компании ЭкоПульт свяжется с Вами</p>
-            </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <div class="col-sm-offset-1 col-sm-10 col-xs-12" id="form-paceholder">
-                        <form action="/order/" method="post" class="form-order"><input type='hidden' name='csrfmiddlewaretoken' value='3HAX3s3zQYBBdKGp6NblImGlvFgOUoPtQ0cOziN2UuObkiZYD1K6h61IQSpEEDke'>
-                            <input type="hidden" class="geo" name="geo" value="">
+function _sendOrderForm()
+{
+	var name = $('#order_name').val();
+	var tel = $('#order_phone').val();
+	var email = $('#order_email').val();
+	var order = $('#openModal0001 .order_panel').html();
+	
+	if(name == ''){ $('#order_name').css('border','solid 1px red'); } else { $('#order_name').css('border','solid 1px silver'); }
+	if(tel == ''){ $('#order_phone').css('border','solid 1px red'); } else { $('#order_phone').css('border','solid 1px silver'); }
+	if(email == ''){ $('#order_email').css('border','solid 1px red'); } else { $('#order_email').css('border','solid 1px silver'); }
 
-                            <div class="form-group" style="margin-bottom: 0;">
-                                <label><span id="modal-form-name">Имя:</span>
-                                    <input type="text" class="form-control" name="name">
-                                </label>
-                            </div>
+	if(name != '' && tel != '' && email != '' && order != '')
+	{
+		$.post( "send-order-form.php", { name: name, tel: tel, email: email, order: order })
+		  .done(function( data ) {
+			$('#openModal0001 .resulter').html('<h5>Ваш заказ отправлен!</h5>');
+		  });
+	}
+}
 
-                            <div class="form-group" style="margin-bottom: 0;">
-                                <label>Телефон: <i>*</i>
-                                    <input type="text" class="form-control" name="phone">
-                                </label>
-                            </div>
-                            <label id="show-textarea"><span id="modal-form-message">Сообщение:</span>
-                                <textarea class="form-control" name="message" rows="3"></textarea>
-                            </label>
 
-                            <div id="show-additional-info" style="display: none">
+function _sendConsultForm()
+{
+	var name = $('#order_name1').val();
+	var tel = $('#order_phone1').val();
 
-                                <label>Адрес доставки: <i>*</i>
-                                    <textarea class="form-control" name="address" rows="3"></textarea>
-                                </label>
+	if(name == ''){ $('#order_name1').css('border','solid 1px red'); } else { $('#order_name1').css('border','solid 1px silver'); }
+	if(tel == ''){ $('#order_phone1').css('border','solid 1px red'); } else { $('#order_phone1').css('border','solid 1px silver'); }
 
-                                <div class="form-group" style="margin-bottom: 0;">
-                                    <label class="col-sm-4 col-xs-12">Почтовый индекс: <i>*</i>
-                                        <input type="text" class="form-control" name="index">
-                                    </label>
-                                    <label class="col-sm-offset-1 col-sm-7 col-xs-12">Email:
-                                        <input type="text" class="form-control" name="email">
-                                    </label>
+	if(name != '' && tel != '')
+	{
+		$.post( "send-consult-form.php", { name: name, tel: tel })
+		  .done(function( data ) {
+			$('#consult .consult-form').html('<b>Мы скоро с Вами свяжемся!</b>');
+		  });
+	}
+}
 
-                                </div>
+function _sendConsultForm2()
+{
+	var name = $('#name111').val();
+	var tel = $('#phone111').val();
 
-                                <div class="form-group" style="margin-bottom: 0;">
-                                    <label>Номер паспорта: * если курьерская доставка
-                                        <input type="text" class="form-control" name="passport">
-                                    </label>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="submit" id="modal-form-submit" class="btn btn-primary btn-lg" onclick="$('#modal-order form').submit(); return false;">Отправить
-                </button>
-                <p class="small-gray" style="margin-top: 8px">или позвоните нам по бесплатному <br>телефону 8 (905) 121-18-48</p>
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
+	if(name == ''){ $('#name111').css('border','solid 1px red'); } else { $('#name111').css('border','solid 1px silver'); }
+	if(tel == ''){ $('#phone111').css('border','solid 1px red'); } else { $('#phone111').css('border','solid 1px silver'); }
+
+	if(name != '' && tel != '')
+	{
+		$.post( "send-consult-form.php", { name: name, tel: tel })
+		  .done(function( data ) {
+			$('#consultform1343 .consult-form').html('<b>Мы скоро с Вами свяжемся!</b>');
+		  });
+	}
+}
+</script>
+
+
+
+<div id="openModal0001" class="modalDialog0001">
+	<div>
+		<a href="#closem" title="Закрыть" class="closem">X</a>
+		<h4 class="modal-title text-center">Оформление заказа</h4>
+		<p class="resulter">
+		<div class="order_panel"></div>
+		<br>
+		<input type="text" id="order_name" placeholder="Ваше ФИО" required><br>
+		<input type="tel" id="order_phone" placeholder="Ваш номер телефона" required><br>
+		<input type="email" id="order_email" placeholder="Ваш e-mail" required><br>
+		<button type="submit" class="btn btn-primary btn-form display-4" style="width: 200px;" onclick="_sendOrderForm()">Заказать</button>
+		<div>Все поля обязательны для заполнения!</div>
+		<br>
+		</p>
+	</div>
 </div>
-<!-- /.modal -->
+
+
 
 <div style="display: none;" class="loader"></div>
 

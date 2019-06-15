@@ -896,3 +896,30 @@ div#rendered-message-amp-form-2 {
     color: green;
     font-size: 20px;
 }
+
+.col-lg-3 {
+    min-height: 416px;
+}
+
+#advantages .col-lg-3 {
+    min-height: unset;
+}
+#openModal0001 input {
+	width:100%;
+	height:33px;
+	padding:5px;
+	margin:5px;
+	border:solid 1px silver;
+}
+#openModal0001 {
+	text-align: center;
+}
+#openModal0001 .order_panel {
+	font-size: 22px;
+    font-weight: bold;
+}
+
+section#questions, .cid-rsHNDVlO8D, .cid-rtrDeDnTln {
+    background: url(../../../static/site/es/img/bg01.jpg) repeat left top;
+    color: rgb(242, 251, 255);
+}
